@@ -9,9 +9,9 @@ public class Test {
 
     public static void main(String[] args) {
         Passport men = new Passport("221195", "Иванов Иван Иванович");
-        Passport women = new Passport("545511","Крамаренко Анастасия Игоревна");
+        Passport women = new Passport("545511", "Крамаренко Анастасия Игоревна");
         Date date = new Date(1594319579000L);
-        packages.technics.Passport passportTechnics = new packages.technics.Passport("Samsung","2020",date);
+        packages.technics.Passport passportTechnics = new packages.technics.Passport("Samsung", "2020", date);
         packages.transport.Passport passportTransport = new packages.transport.Passport("Lexus", "Зубцов Максим Дмитриевич");
     }
 }

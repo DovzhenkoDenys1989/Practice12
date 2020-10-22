@@ -1,5 +1,6 @@
 package packages.transport;
 
+
 public class Passport {
     private String model;
     private String ownerName;
@@ -31,6 +32,12 @@ public class Passport {
                 "model='" + model + '\'' +
                 ", ownerName='" + ownerName + '\'' +
                 '}';
+    }
+
+
+    public Passport changeOwner(Passport passportTransport) {
+        PassportUtil.changeOwner(this);
+        return passportTransport;
     }
 }
 
